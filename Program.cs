@@ -103,9 +103,9 @@ namespace GC2Toolkit
             {
                 try
                 {
-                    int NewAvaterCount = int.Parse(Console.ReadLine());
-                    ToSet.MaxAvater = NewAvaterCount;
-                    Console.Write("Song slot has updated to " + NewAvaterCount.ToString());
+                    int NewStageCount = int.Parse(Console.ReadLine());
+                    ToSet.MaxStage = NewStageCount;
+                    Console.Write("Song slot has updated to " + NewStageCount.ToString());
                     Console.WriteLine(",restart game to take effect.");
                     Console.ReadLine();
                     return;
