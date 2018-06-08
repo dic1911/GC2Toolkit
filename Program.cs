@@ -119,8 +119,8 @@ namespace GC2Toolkit
 
         static void SetDefault(MainServer ToSet)
         {
-            ToSet.MaxAvater = 86;
-            ToSet.MaxStage = 400;
+            ToSet.MaxAvater = 100;
+            ToSet.MaxStage = 500;
 
             Console.WriteLine("Avater & Song slot has restored to default.\n");
         }
